@@ -1,0 +1,250 @@
+/*---------------------------------------- GLOBAL CSS ----------------------------------------*/
+#struct{
+fill:black;
+stroke-width:2;
+stroke:black;
+}
+
+#struct circle{stroke-width:1;}
+
+#grid{
+stroke:rgb(180,180,180);
+stroke-width:1;
+display:inline;
+}
+
+/*---------------------------------------- MENU CSS ----------------------------------------*/
+
+.menu-container{
+position:absolute;
+display:none;
+}
+
+.menu{
+position:absolute;
+left:100%;
+top:-3px;
+border:1px solid #bababa;
+border-radius:1px;
+background-color:#fefefe;
+color:#212224;
+display:inline;
+}
+
+.menu li{
+position:relative;
+padding:3px 9px;
+margin:1px;
+border-radius:1px;
+line-height:20px;
+white-space:pre;
+}
+
+.menu li:hover{
+background-color:#b2d292;
+border:1px solid #92b76d;
+padding:2px 8px;
+color:white;
+cursor:pointer;
+}
+
+.menu li input{
+position:absolute;
+width:120px;
+top:0px;
+right:2px;
+}
+
+.menu li:hover > input{
+top:-1px;
+right:1px;
+}
+
+li ul.menu{
+display:none;
+}
+
+li:hover > ul.menu{
+display:block;
+}
+
+/*---------- icons ----------*/
+.menu li .icon{
+position:absolute;
+display:inline-block;
+width:25px;
+height:16px;
+right:4px;
+top:5px;
+}
+
+li:hover > .icon{
+right:3px;
+top:4px;
+}
+
+.icon-tick{
+background:url('../img/icons.png') -277px 0px;
+}
+
+.icon-bracket-tick{
+background:url('../img/icons.png') -134px -72px;
+}
+
+.icon-bracket-empty{
+background:url('../img/icons.png') -374px -168px;
+}
+
+.icon-radio-star{
+background:url('../img/icons.png') -444px -96px;
+}
+
+.icon-rarrow{
+background:url('../img/icons.png') -444px -72px;
+}
+
+.icon-lock{
+background:url('../img/icons.png') -277px -22px;
+}
+
+/*---------- special ----------*/
+.icon-pad{
+width:16px;
+display:inline-block;
+}
+
+.input-pad{
+width:120px;
+display:inline-block;
+}
+
+.menu div.separator{
+border-bottom:1px solid #bababa;
+}
+
+.menu li.disable{
+color:#bababa;
+}
+
+.menu li.disable:hover{
+background-color:#fefefe;
+border:1px solid #FFF;
+color:#bababa;
+cursor:default;
+}
+
+/*---------------------------------------- POINT CSS ----------------------------------------*/
+.poi-label{
+stroke:grey;
+fill:grey;
+}
+
+.poi-label text{
+stroke-width:1px;
+}
+
+.restraint *{
+stroke:black;
+stroke-width:1;
+fill:grey
+}
+
+.poi-load{
+stroke:#339933;
+fill:#339933;
+}
+
+.poi-load text{
+stroke-width:1;
+}
+
+.poi-dofs .dof-1{
+stroke:#FF3333;
+fill:#FF3333;
+}
+
+.poi-dofs .dof-2{
+stroke:#3366CC;
+fill:#3366CC;
+}
+
+.poi-dofs .dof-3{
+stroke:#003333;
+fill:#003333;
+}
+
+.poi-dofs text{
+stroke-width:1;
+}
+
+.poi-res{
+stroke:#3366CC;
+fill:#3366CC;
+}
+
+.poi-res text{
+stroke-width:1;
+}
+
+/*---------------------------------------- ELEMENT CSS ----------------------------------------*/
+.elm{
+}
+
+.elm-label{
+stroke:#808080;
+fill:#808080;
+}
+
+.elm-label text{
+stroke-width:1px;
+}
+
+.elm-load{
+stroke:#990033;
+fill:#990033;
+}
+
+.elm-load text{
+stroke-width:1;
+}
+
+.elm-dofs .dof-1{
+stroke:#FF3333;
+fill:#FF3333;
+}
+
+.elm-dofs .dof-2{
+stroke:#3366CC;
+fill:#3366CC;
+}
+
+.elm-dofs .dof-3{
+stroke:#003333;
+fill:#003333;
+}
+
+.elm-dofs text{
+stroke-width:1;
+}
+
+.elm-res{
+stroke:#9900CC;
+fill:#9900CC;
+}
+
+.res-elm-marker{
+stroke:#9900CC;
+fill:#9900CC;
+stroke-width:1px;
+}
+
+.res-elm-line{
+stroke:#9900CC;
+fill:#9900CC;
+}
+
+.res-elm-text, .res-poi-text{
+stroke:#9900CC;
+fill:#9900CC;
+stroke-width:1px;
+}
