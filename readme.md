@@ -1,4 +1,5 @@
-########## - TO DO LIST - ##########
+TO DO LIST
+=====
 moznost gledanja razlicnih rezultatov
 moznost gledanja premikov
 moznost vstavljanja obtezb
@@ -14,7 +15,8 @@ popravit in izboljsat C++ app
 dodat racunanje nps v C++ app
 NAPETOSTI
 
-########## - STRUCT, OPT AND RESULTS - ##########
+STRUCT, OPT AND RESULTS
+=====
 <script type='text/javascript'>
 var points = [{x:0, y:0, dof:[{id:0, exist:true, rest:true},{id:1, exist:true, rest:true},{id:2, exist:true, rest:true},], pload:{px:0, py:0, pmz:0}, e:{sL:false, sR:false}},
 			  {x:0, y:200, dof:[{id:0, exist:true, rest:false},{id:1, exist:true, rest:false},{id:2, exist:true, rest:false},], pload:{px:0, py:0, pmz:0}, e:{sL:false, sR:false}},
