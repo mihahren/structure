@@ -2,7 +2,7 @@
 include_once dirname(__FILE__).'/../xml_manager.php';
 
 //execute structure command
-$string = realpath(dirname(__FILE__)."/../../anal/structure")." ".realpath(dirname(__FILE__)."/../../sav/str.xml")." ".realpath(dirname(__FILE__)."/../../sav/res.xml");
+$string = realpath(dirname(__FILE__)."/../../anal/structure.exe")." ".realpath(dirname(__FILE__)."/../../sav/str.xml")." ".realpath(dirname(__FILE__)."/../../sav/res.xml");
 exec($string, $blah);
 
 //echo out the correct JSON string
