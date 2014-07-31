@@ -208,14 +208,14 @@ void staticAnalysis(char* lInStr, char* lOutStr)
 
 int main(int argc, char* argv[])
 {
-	/*staticAnalysis("D:/Documents/Projekti/Programiranje/Eclipse/structure/anal/str.xml", "D:/Documents/Projekti/Programiranje/Eclipse/structure/anal/res.xml");
-	return 1;*/
+	staticAnalysis("D:/Documents/Projekti/Programiranje/Test/src/str.xml", "D:/Documents/Projekti/Programiranje/Test/src/output.xml");
+	return 1;
 	
-	if (argc != 3) {
+	/*if (argc != 3) {
 		std::cout << "Program sprejme natanko 2 parametra, input file in output file!" << std::endl;
 		return 0;
 	} else {
 		staticAnalysis(argv[1], argv[2]);
 		return 1;
-	}
+	}*/
 }
