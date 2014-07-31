@@ -1,4 +1,5 @@
-cd d:\Documents\Projekti\Programiranje\Eclipse\structure\anal
 cd /var/www/Structure/anal
-
 g++ main.cpp finite_element.cpp tinyxml2.cpp xml_io.cpp -std=c++0x -o structure
+
+D:
+cd Documents\Projekti\Programiranje\Structural_analysis\Debug
