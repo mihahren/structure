@@ -1,4 +1,0 @@
-cd /var/www/Structure/anal
-cd d:\Documents\Projekti\Programiranje\Eclipse\structure\anal
-
-g++ main.cpp finite_element.cpp tinyxml2.cpp xml_io.cpp -std=c++0x -o structure
