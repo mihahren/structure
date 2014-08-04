@@ -2,9 +2,9 @@
     <points>
         <point id="0">
             <reactions>
-                <dof id="0">-20.0000000000</dof>
-                <dof id="1">38.3333333333</dof>
-                <dof id="2">6000.0000000001</dof>
+                <dof id="0">7.9411356871</dof>
+                <dof id="1">60.0000000000</dof>
+                <dof id="2">-1001.1922653165</dof>
             </reactions>
             <displacements>
                 <dof id="0">0.0000000000</dof>
@@ -19,9 +19,9 @@
                 <dof id="5">0.0000000000</dof>
             </reactions>
             <displacements>
-                <dof id="3">0.1607142958</dof>
-                <dof id="4">-0.0016666667</dof>
-                <dof id="5">-0.0008035715</dof>
+                <dof id="3">-0.0083201267</dof>
+                <dof id="4">-0.0032142857</dof>
+                <dof id="5">-0.0000508870</dof>
             </displacements>
         </point>
         <point id="2">
@@ -31,9 +31,9 @@
                 <dof id="8">0.0000000000</dof>
             </reactions>
             <displacements>
-                <dof id="6">0.1607142958</dof>
-                <dof id="7">-0.0004761905</dof>
-                <dof id="8">-0.0008035715</dof>
+                <dof id="6">0.0083201267</dof>
+                <dof id="7">-0.0032142857</dof>
+                <dof id="8">0.0000508870</dof>
             </displacements>
         </point>
         <point id="3">
@@ -43,16 +43,16 @@
                 <dof id="11">0.0000000000</dof>
             </reactions>
             <displacements>
-                <dof id="9">0.1615574748</dof>
-                <dof id="10">-0.0010714286</dof>
-                <dof id="11">0.0001744521</dof>
+                <dof id="9">0.0000000000</dof>
+                <dof id="10">-0.0192924471</dof>
+                <dof id="11">0.0000000000</dof>
             </displacements>
         </point>
         <point id="4">
             <reactions>
-                <dof id="12">-20.0000000000</dof>
-                <dof id="13">21.6666666667</dof>
-                <dof id="14">6000.0000000001</dof>
+                <dof id="12">-7.9411356871</dof>
+                <dof id="13">60.0000000000</dof>
+                <dof id="14">1001.1922653165</dof>
             </reactions>
             <displacements>
                 <dof id="12">0.0000000000</dof>
@@ -64,71 +64,71 @@
     <elements>
         <element id="0">
             <forces>
-                <dof id="0">38.3333333333</dof>
-                <dof id="1">20.0000000000</dof>
-                <dof id="2">6000.0000000001</dof>
-                <dof id="3">-8.3333333333</dof>
-                <dof id="4">-20.0000000000</dof>
-                <dof id="5">0.0000000000</dof>
+                <dof id="0">60.0000000000</dof>
+                <dof id="1">-7.9411356871</dof>
+                <dof id="2">-1001.1922653165</dof>
+                <dof id="3">-30.0000000000</dof>
+                <dof id="4">7.9411356871</dof>
+                <dof id="5">-1381.1484408026</dof>
             </forces>
             <displacements>
                 <dof id="0">0.0000000000</dof>
                 <dof id="1">0.0000000000</dof>
                 <dof id="2">0.0000000000</dof>
-                <dof id="3">-0.0016666667</dof>
-                <dof id="4">-0.1607142958</dof>
-                <dof id="5">-0.0008035715</dof>
+                <dof id="3">-0.0032142857</dof>
+                <dof id="4">0.0083201267</dof>
+                <dof id="5">-0.0000508870</dof>
             </displacements>
         </element>
         <element id="1">
             <forces>
-                <dof id="0">-12.0185042515</dof>
-                <dof id="1">18.0277563773</dof>
-                <dof id="2">-0.0000000000</dof>
-                <dof id="3">12.0185042515</dof>
-                <dof id="4">18.0277563773</dof>
-                <dof id="5">0.0000000000</dof>
+                <dof id="0">23.2484301726</dof>
+                <dof id="1">20.5565593063</dof>
+                <dof id="2">1381.1484408026</dof>
+                <dof id="3">-23.2484301726</dof>
+                <dof id="4">15.4989534484</dof>
+                <dof id="5">-469.3755782153</dof>
             </forces>
             <displacements>
-                <dof id="0">0.1327978768</dof>
-                <dof id="1">-0.0905350019</dof>
-                <dof id="2">-0.0001742992</dof>
-                <dof id="3">0.1338296228</dof>
-                <dof id="4">-0.0905074454</dof>
-                <dof id="5">0.0001744521</dof>
+                <dof id="0">-0.0087057288</dof>
+                <dof id="1">0.0019407286</dof>
+                <dof id="2">-0.0000508870</dof>
+                <dof id="3">-0.0107015242</dof>
+                <dof id="4">-0.0160522863</dof>
+                <dof id="5">0.0000000000</dof>
             </displacements>
         </element>
         <element id="2">
             <forces>
-                <dof id="0">12.0185042515</dof>
-                <dof id="1">-18.0277563773</dof>
-                <dof id="2">-0.0000000000</dof>
-                <dof id="3">-12.0185042515</dof>
-                <dof id="4">-18.0277563773</dof>
-                <dof id="5">0.0000000000</dof>
+                <dof id="0">23.2484301726</dof>
+                <dof id="1">15.4989534484</dof>
+                <dof id="2">469.3755782153</dof>
+                <dof id="3">-23.2484301726</dof>
+                <dof id="4">20.5565593063</dof>
+                <dof id="5">-1381.1484408026</dof>
             </forces>
             <displacements>
-                <dof id="0">0.1350182661</dof>
-                <dof id="1">0.0887244805</dof>
-                <dof id="2">0.0001744521</dof>
-                <dof id="3">0.1339865200</dof>
-                <dof id="4">0.1830600786</dof>
-                <dof id="5">-0.0001742992</dof>
+                <dof id="0">0.0107015242</dof>
+                <dof id="1">-0.0160522863</dof>
+                <dof id="2">0.0000000000</dof>
+                <dof id="3">0.0087057288</dof>
+                <dof id="4">0.0019407286</dof>
+                <dof id="5">0.0000508870</dof>
             </displacements>
         </element>
         <element id="3">
             <forces>
-                <dof id="0">-8.3333333333</dof>
-                <dof id="1">20.0000000000</dof>
-                <dof id="2">0.0000000000</dof>
-                <dof id="3">-21.6666666667</dof>
-                <dof id="4">-20.0000000000</dof>
-                <dof id="5">6000.0000000001</dof>
+                <dof id="0">30.0000000000</dof>
+                <dof id="1">7.9411356871</dof>
+                <dof id="2">1381.1484408026</dof>
+                <dof id="3">-60.0000000000</dof>
+                <dof id="4">-7.9411356871</dof>
+                <dof id="5">1001.1922653165</dof>
             </forces>
             <displacements>
-                <dof id="0">0.0004761905</dof>
-                <dof id="1">0.1607142958</dof>
-                <dof id="2">-0.0008035715</dof>
+                <dof id="0">0.0032142857</dof>
+                <dof id="1">0.0083201267</dof>
+                <dof id="2">0.0000508870</dof>
                 <dof id="3">0.0000000000</dof>
                 <dof id="4">0.0000000000</dof>
                 <dof id="5">0.0000000000</dof>
